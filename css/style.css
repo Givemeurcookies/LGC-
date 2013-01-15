@@ -1,0 +1,160 @@
+* {
+	margin:0;
+	padding:0;
+	color:#fff;
+}
+html, body {
+	background-color:#333;
+	width:100%;
+	font-family: arial;
+}
+a {
+	text-decoration: none;
+	font-weight: 600;
+}
+input {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+}
+#logo {
+	height:75px;
+	background-image: url("/img/lgc-bige.png");
+	background-size: 250px 75px;
+	width:250px;
+	position:absolute;
+	z-index: 2;
+	left:50%;
+	top:50%;
+	margin:-124px 0 0 -125px;
+}
+#container {
+	display:block;
+	height:100px;
+	width:250px;
+	position:absolute;
+	z-index: 2;
+	left:50%;
+	top:50%;
+	margin:-50px 0 0 -125px;
+	background-color: #fff;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+#download {
+	margin:15px 25px;
+	height:70px;
+	width:200px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background: #3399cc;
+}
+#download a {
+	font-size: 30px;
+	color:#fff;
+	width:200px;
+	padding-top: 15px;
+	height: 55px;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+#download a:hover {
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.2)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+#footer{
+	background-image: url("/img/stilts-big.png");
+	background-size: 250px 50px;
+	background-repeat: no-repeat;
+	position:absolute;
+	z-index: 2;
+	width:250px;
+	height:50px;
+	left:50%;
+	top:50%;
+	margin:50px 0 0 -125px;
+}
+#footer a {
+	margin: 4px 0 0 57px;
+	font-size: 14px;
+	display: inline-block;
+	color:#3399cc;
+}
+#login{
+	z-index: 2;
+	position: absolute;
+	display:none;
+	opacity: 0;
+	width:250px;
+	height:135px;
+	margin: -67.5px 0 0 0;
+	top:50%;
+	right:0;
+	float: right;
+	padding-top: 20px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+#login h2{
+	color:0;
+}
+#login label{
+	margin:9px 0;
+	margin-right: 10px;
+	padding-top: 1px;
+	font-family: arial;
+	display:block;
+	font-weight:bold;
+	color:f;
+	text-align:right;
+	width:80px;
+	float:left;
+}
+#login input{
+	float:left;
+	font-size:15px;
+	background-color:#fff;
+	overflow: auto;
+	padding:0px 2px;
+	border:1px solid;
+	color:0;
+	width:140px;
+	margin:2px 2px 20px 10px;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+#login input:focus {
+	border: 1px solid rgba(51, 153, 204, 1);
+	box-shadow: 0 0 5px rgba(51, 153, 204, 1);
+}
+#login button{
+	float:right;
+	color:#fff;
+	padding: 4px 6px;
+	position: relative;
+	display: block;
+	border: 0;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
+	background: #3399cc;
+	font-weight: bold;
+}
+#textcontainer{
+	position:absolute;
+	width:230px;
+	left:50%;
+	top:50%;
+	margin:110px 0 0 -125px;
+	padding: 0 10px;
+	display: none;
+	font-size: 12px;
+	font-family: arial;
+}

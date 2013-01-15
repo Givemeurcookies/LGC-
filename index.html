@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>LGC Simple file sharer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="/img/favicon.ico" />
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+<div id="logo"></div>
+<div id="container">
+<div id="download"><a href="">Download</a></div>
+</div>
+<div id="footer"><a href="#" id="about">About</a><a href="#" id="loginbtn">Log in</a></div>
+<div id="textcontainer">
+	<p><b>What is LGC+?</b> LGC is a <i>simple</i> file sharer, created for The Gathering 2013. The files are hosted on a file server with 6TB of file space.</p><br>
+	<p><b>Encrypted transferring</b>, we're running the server on an encrypted SSL protocol, meaning people won't be able to observe your file transfers.</p><br>
+	<p><b>Chat</b>, we decided to add a chat, because why not? You can easily use the client to contact anyone else using LGC+, get suggestions, talk dirty, whatever you like.</p><br>
+	<p><b>Stream</b>, yes, you can stream any file you like, every file is accessible using a browser or whatever you'd like on port 80. Meaning you can use for example VLC's network streaming to stream videos or even music.</p><br>
+	<p><b>Cross platform</b>, we both got OSX and Windows, sadly, we don't have support for Linux generally.</p> 
+</div>
+<div id="login">
+	<form method="post" id="loginform" action="contact.html">
+		<label for="name">Username</label>
+		<input type="text" name="name" id="name" />
+		<label for="email">Password</label>
+		<input type="text" name="email" id="email" />
+		<a id="back" href="#" style="margin-top: 5px; display:inline-block; font-size:12px">Back</a><button type="submit">Send</button>
+		<div style="clear: both;"></div>
+	</form>
+</div>
+</body>
+<script type="text/javascript" src="/js/firefly.js"></script>
+<script type="text/javascript" src="/js/typewriter2.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+</html>
