@@ -21,7 +21,7 @@ input {
 }
 #logo {
 	height:75px;
-	background-image: url("img/lgc-bige.png");
+	background-image: url("/LGC-/img/lgc-bige.png");
 	background-size: 250px 75px;
 	width:250px;
 	position:absolute;
@@ -71,7 +71,7 @@ input {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 #footer{
-	background-image: url("img/stilts-big.png");
+	background-image: url("/LGC-/img/stilts-big.png");
 	background-size: 250px 50px;
 	background-repeat: no-repeat;
 	position:absolute;
