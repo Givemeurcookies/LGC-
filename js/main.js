@@ -36,7 +36,7 @@ $(document).ready(function() {
 		alert('Handler for .submit() called.');
 		return false;
 	});
-	$.firefly({images : ['/img/firefly1.png'],total : 20});
-	var typewriter = new typeWriter("#someid");
-	typewriter.write("Message1");
+	$.firefly({images : ['img/firefly1.png'],total : 20});
+	//var typewriter = new typeWriter("#someid");
+	//typewriter.write("Message1");
 });
